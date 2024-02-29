@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{ background-color: darkslategrey;
+height: 750px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+font-family: "Madimi One", sans-serif;
+font-weight: 400;
+font-size: 30px;
+font-style: normal;
+}
+
+#calculos {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+}
+
+button{
+    width: 50px;
+    background: none;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+input{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
